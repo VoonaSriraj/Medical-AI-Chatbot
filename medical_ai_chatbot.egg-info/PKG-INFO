@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: medical-ai-chatbot
+Version: 0.1.0
+Summary: Add your description here
+Author: Voona Sriraj
+Author-email: srirajvoona2004@gmail.com
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: license-file
