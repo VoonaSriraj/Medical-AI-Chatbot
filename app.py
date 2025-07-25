@@ -22,7 +22,7 @@ os.environ["GROQ_API_KEY"] = GROQ_API_KEY
 
 embeddings = download_hugging_face_embeddings()
 
-index_name = "medical-bot" 
+index_name = "medicalchatbot" 
 # Embed each chunk and upsert the embeddings into your Pinecone index.
 docsearch = PineconeVectorStore.from_existing_index(
     index_name=index_name,
