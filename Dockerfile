@@ -1,12 +1,9 @@
-FROM python:3.12-slim
+FROM python:3.10-slim-buster
 
 WORKDIR /app
 
-COPY requirements.txt .
+COPY . /app
 
-RUN pip install --upgrade pip \
-    && pip install -r requirements.txt
+RUN pip install -r requirements.txt
 
-COPY . .
-
-CMD ["python", "main.py"]
+CMD ["python3", "app.py"]
