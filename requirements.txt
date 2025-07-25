@@ -1,9 +1,7 @@
-langchain>=0.3.26
-flask>=3.1.1
-sentence-transformers>=4.1.0
-pypdf>=5.6.1
-python-dotenv>=1.1.0
-langchain-pinecone>=0.2.8
-langchain-groq>=0.0.1
-langchain-community>=0.3.26
--e .
+langchain==0.0.334
+langchain-core>=0.1,<0.2
+langchain-community==0.0.23
+langchain-openai==0.0.7
+langchain-pinecone==0.0.3
+langchain-groq==0.0.1
+langsmith==0.0.69
