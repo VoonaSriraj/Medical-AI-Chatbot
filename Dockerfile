@@ -16,6 +16,5 @@ RUN pip install flask==3.1.1 sentence-transformers==4.1.0 pypdf==5.6.1 python-do
 
 # Install local package
 COPY . /app
-RUN pip install -e .
 
 CMD ["python3", "app.py"]
